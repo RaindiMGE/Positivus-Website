@@ -997,3 +997,36 @@ a {
 .second-box a {
     color: #fff;
 }
+
+nav img {
+    display: none;
+}
+
+
+
+
+
+/* media */
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    nav img {
+        display: unset;
+    }
+
+    nav  li, .request-li {
+        display: none;
+    }
+
+}
